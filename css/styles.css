@@ -971,6 +971,7 @@ image {
     color: var(--main-text-color);
     font-size: 12px;
     line-height: 1.17;
+    transition: transform var(--time) var(--timing-function);
 }
 
 
@@ -985,6 +986,7 @@ image {
     margin-top: 4px;
     margin-bottom: 10px;
     padding-left: 42px;
+    transition: transform var(--time) var(--timing-function);
 }
 
 .input-comment {
@@ -998,6 +1000,7 @@ image {
     color: var(--pleceholder-color);
     transform: translateX(0%);
     transform: translateY(-250%);
+    transition: transform var(--time) var(--timing-function);
 }
 
 
@@ -1006,6 +1009,7 @@ image {
     cursor: pointer;
     border-radius: 4px;
     border: 1px solid var(--hover-focus-color);
+    transition: transform var(--time) var(--timing-function);
 }
 
 
@@ -1016,11 +1020,12 @@ image {
     transform: translateX(-2500%);
     margin-left: 12px;
     margin-top: 15px;
+    transition: transform var(--time) var(--timing-function);
 }
 
 .input-name:hover + .icon-person, .input-phone:hover + .icon-phone, .input-email:hover + .icon-email {
     fill: var(--hover-focus-color);
-    /*transition: transform var(--time) var(--timing-function);*/
+    transition: transform var(--time) var(--timing-function);
 }
 
 .icon-person:focus, .icon-phone:focus, .icon-email:focus,
@@ -1028,6 +1033,7 @@ image {
     position: absolute;
     cursor: pointer;
     fill: var(--hover-focus-color);
+    transition: transform var(--time) var(--timing-function);
 }
 
 .contract {
@@ -1041,6 +1047,7 @@ image {
     background-color: var(--hover-focus-color);
     color: var(--main-text-white-color);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition: transform var(--time) var(--timing-function);
 }
 
 .icon-vector-2 {
@@ -1055,13 +1062,16 @@ image {
     width: 16px;
     height: 15px;
     border: 2px solid var(--studio-logo-color);
+    transition: transform var(--time) var(--timing-function);
 }
 
 .form-input:hover, .form-input:focus, .icon-vector-2:hover, .icon-vector-2:focus {
     background-color: var(--hover-focus-color);
+    transition: transform var(--time) var(--timing-function);
 }
 
 .form-input {
     display: none;
     color: var(--studio-logo-color);
+    transition: transform var(--time) var(--timing-function);
 }
