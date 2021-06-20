@@ -803,10 +803,6 @@ image {
 
 }
 
-/*.sign-up {
-    
-}*/
-
 .icon-send {
     fill: var(--main-text-white-color);
     margin-left: 10px;
@@ -870,6 +866,7 @@ image {
     border-radius: 50%;
     top: 8px;
     right: 8px;
+    outline: none;
 
     transition:  color var(--time) var(--timing-function), border-color var(--time) var(--timing-function);    
 }
