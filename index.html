@@ -86,12 +86,11 @@
                                 <input class="input-comment" type="text" id="comment" placeholder="Введите текст">
                             </div>
                             
-                            <div class="form-div">                           
-                                <input class="form-input" type="checkbox" name="agree" id="agree">
-                                <svg class="icon-vector-2" width="11" height="8"> 
-                                    <use href="./images/icons.svg#icon-vector-2"></use>
-                                </svg>
-                                <label for="agree"> Соглашаюсь с рассылкой и принимаю <a class="contract" href="#">Условия договора</a></label>
+                            <div class="form-div-check">                           
+                                <label class="label-check"> 
+                                    <input class="checkbox" type="checkbox"/>
+                                    <span class="icon-check"></span> Соглашаюсь с рассылкой и принимаю <a class="contract" href="#">Условия договора</a>
+                                </label>
                             </div> 
 
                             <button class="form-btn" type="submit"> Отправить </button>
@@ -414,7 +413,7 @@
                     <li class="sign-up">
                         <form class="sign-up-mailing">
                             <p class="mailing"> Подпишитесь на рассылку </p>
-                            <input 
+                            <input  
                             class="mailing-input"
                             type="text" 
                             name="name"
