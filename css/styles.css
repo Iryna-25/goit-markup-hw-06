@@ -989,10 +989,15 @@ image {
 .checkbox:checked + .icon-check {
     border-color: transparent;
     background-color: var(--hover-focus-color);
-    background-image: url('../images/icons.svg#icon-check');
+    background-image: url('../images/check.svg');
     background-size: contain;
     background-origin: border-box;
 }
+
+.checkbox:focus + .icon-check, .checkbox:hover + .icon-check {
+    cursor: pointer;
+}
+
 
 
 .label-name, .label-tel, .label-mail, .label-comment {
