@@ -765,13 +765,6 @@ image {
     color: rgba(225, 225, 225, 60);
 }
 
-.add-ul {
-    align-content: center;
-    width: 206px;
-    height: 80px;
-    margin-right: 0px;
-}
-
 .sign-up-button {
     display: flex;
     align-items: center;
