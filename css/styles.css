@@ -832,12 +832,6 @@ image {
     transition:  fill var(--time) var(--timing-function);
 }
 
-.icon-vector:hover, .icon-vector:focus {
-    fill: var(--hover-focus-color);
-
-    transition:  fill var(--time) var(--timing-function);
-}
-
 .btn-vector {
     position: absolute;
     width: 30px;
@@ -860,6 +854,12 @@ image {
     border-radius: 50%;
 
     transition:  color var(--time) var(--timing-function), border-color var(--time) var(--timing-function);
+}
+
+.btn-vector:focus .icon-vector, .btn-vector:hover .icon-vector {
+    fill: var(--hover-focus-color);
+
+    transition:  fill var(--time) var(--timing-function);
 }
 
 .photo {
